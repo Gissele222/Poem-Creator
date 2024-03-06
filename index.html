@@ -4,41 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>Document</title>
+    <title>AI Poem Creator</title>
   </head>
   <body>
-    <header>
-      <h1>Poem Creator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Poem Creator 🌸</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Choose a topic.."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        I like to write poems
-        <br />
-        I hope you enjoy them
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Give me a topic to create a poem for you.."
+            autofocus
+            required
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="button" />
+        </form>
+        <div class="poem">
+          I like to write poems
+          <br />
+          I hope you enjoy them
+        </div>
+      </main>
 
-    <footer>
-      Coded by
-      <a href="https://github.com/Gissele222" target="_blank">Gissele Campa</a>
-      | Open-sourced on
-      <a href="https://github.com/Gissele222/poem-creator" target="_blank"
-        >GitHub</a
-      >
-      | Hosted on
-      <a href="https://aipoemcreator.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+      <footer>
+        Coded by
+        <a href="https://github.com/Gissele222" target="_blank"
+          >Gissele Campa</a
+        >
+        | Open-sourced on
+        <a href="https://github.com/Gissele222/poem-creator" target="_blank"
+          >GitHub</a
+        >
+        | Hosted on
+        <a href="https://aipoemcreator.netlify.app/" target="_blank">Netlify</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
