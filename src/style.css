@@ -24,7 +24,7 @@ form {
 
 .prompt {
   padding: 16px;
-  border: 1px gray;
+  border: 1px dimgray;
   width: 80%;
   font-size: 16px;
   border-radius: 10px;
@@ -34,7 +34,7 @@ form {
 .button {
   margin-left: 10px;
   background-color: white;
-  color: grey;
+  color: dimgrey;
   padding: 16px;
   width: 20%;
   font-size: 16px;
@@ -51,12 +51,12 @@ form {
   border-radius: 3px;
   border-left: 3px solid lightsalmon;
   font-size: 15px;
-  color: grey;
+  color: dimgray;
 }
 
 footer {
   text-align: center;
-  color: grey;
+  color: dimgrey;
   margin: 30px;
 }
 
