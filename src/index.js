@@ -19,6 +19,7 @@ function displayMyPoem() {
     strings: poem,
     autoStart: true,
     delay: 1,
+    cursor: "",
   });
 }
 
