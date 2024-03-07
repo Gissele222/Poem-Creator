@@ -7,6 +7,21 @@ function displayPoem(response) {
   });
 }
 
+function displayMyPoem() {
+  let poem = `
+    Hi, my name is Ash<br />
+    I like writing poems on the fly,<br />
+    Type the first word that comes to mind<br />
+    Come on don't be shy<br />
+    `;
+
+  new Typewriter("#poem", {
+    strings: poem,
+    autoStart: true,
+    delay: 1,
+  });
+}
+
 function createPoem(event) {
   event.preventDefault();
 
@@ -26,3 +41,4 @@ function createPoem(event) {
 
 let poemFormElement = document.querySelector("#poem-creator-form");
 poemFormElement.addEventListener("submit", createPoem);
+displayMyPoem();
